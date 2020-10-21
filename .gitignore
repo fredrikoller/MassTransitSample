@@ -1,0 +1,9 @@
+# Visual Studio stuff
+.vs
+
+# Build output
+/bin
+/obj
+*.suo
+
+packages-microsoft-prod.deb
