@@ -5,5 +5,5 @@ Video series: https://www.youtube.com/watch?v=97PXJIrGnes&list=PLx8uyNNs1ri2MBx6
 Install RabbitMQ
 
 ```bash
-docker run -p 15672:15672 -p 5672:5672 masstransit/rabbitmq
+docker run -d --hostname my-rabbit --name some-rabbit -p 8080:15672 rabbitmq:3-management
 ```
